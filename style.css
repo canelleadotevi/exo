@@ -1,0 +1,137 @@
+@charset "utf - 8";
+* {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500px;
+  position: relative;
+}
+.container {
+  max-width: 1000px;
+  margin: 10px auto;
+}
+/* .product_content_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product_content_item{
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+.product_content_item_top{
+    background-color: pink;
+    height: 120px;
+}
+.product_circle{
+     position: absolute;
+    border-radius: 50%;
+    background-color: rgb(213, 116, 116);
+    width: 80px;
+    height: 80px;
+    bottom: -40px;
+    left:50%;
+    transform: translateX(-50%);
+   
+ }
+
+ .product_content_item{
+    border: 2px solid #eee;
+    box-shadow: 1px 1px 0px #eee;
+    border-radius: 3px;
+}  
+.product_content_item_bottom{
+    text-align: center;
+    margin: 60px 10px 10px 10px;
+}
+.product_content_item h2{
+    text-transform: capitalize;
+    font-weight: 700px;
+    -webkit-text-fill-color: bisque;
+    -webkit-text-stroke-color: rgb(253, 130, 130);
+    -webkit-text-stroke: 1px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.product_content_item p{
+    padding-bottom: 10px;first_
+} */
+.form_content {
+  padding: 20px;
+}
+form {
+  box-shadow: -4px 2px 30px black;
+  border: 2px solid #b17070;
+  padding: 25px;
+  max-width: 900px;
+}
+.form_item {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_content_title h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700px;
+  padding-bottom: 20px;
+}
+.form_item label, .form_item span{
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+span {
+  margin-bottom: 40px;
+}
+.gender1{
+    display: flex;
+}
+.gender2_inactive input{
+    overflow: hidden;
+}
+.form_item input,
+textarea,
+select {
+  display: block;
+  border-radius: 9px;
+  border: 2px solid #b17070;
+  margin: 10px;
+  padding: 20px 10px;
+}
+.form_item input,textarea:hover
+ {
+  outline: none;
+}
+/* .button_submit */ button {
+  padding: 10px auto;
+  width: 100px;
+  height: 40px;
+
+  border-radius: 9px;
+  display: block;
+  margin: 10px auto;
+}
+/* .button_submit */ button:hover {
+  background-color: blue;
+}
+.table_item{
+    padding: 20px;
+    background-color: #b17070;
+    border: 2px solid white;
+    border-radius: 9px;
+    width: 200px;
+    
+}
+.table p{
+    font-size: 20px;
+    color: #b17070;
+    
+}
+.form_information_content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
